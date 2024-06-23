@@ -810,9 +810,17 @@ footer .cookies {
 	align-items: center;
 	justify-content: space-between;
 	background-color: #ece7e5;
-	padding: 20px;
+	padding: 15px;
 	font-size: 16px;
 	color: var(--text-color);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 3;
+}
+
+footer .cookies.hidden {
+	display: none;
 }
 
 footer .cookies .cookies-private-policy {
